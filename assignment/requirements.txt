@@ -1,0 +1,29 @@
+UserTask Assignment App
+
+1. Python==3.10
+2. Django==4.2
+3. import_export-0.3.1
+4. Pandas
+5. Visual Studio Code
+6. HTML
+7. Bootstrap
+
+
+To create project and start the app run the following commands
+commands: 
+         django-admin startproject project_name
+         python3 manage.py startapp app_name
+
+To install  the libraries and packages you can use-
+         pip3 install package_name
+
+
+
+migrate the models to create database
+
+commands: python3 manage.py makemigrations
+          python3 manage.py migrate
+          
+Note: You can use "python3 and pip3" If you are using Linux and "python and pip" if windows
+
+NOTE: In this project the site will direcly open the admin page if you want to use  web app page the you need to configure project's urls.py file.
